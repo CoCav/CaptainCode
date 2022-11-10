@@ -108,7 +108,7 @@ export default {
   methods: {
     loadSite() {
       fetch(
-        "https://captaincode-e61ec-default-rtdb.firebaseio.com/sites.json"
+        "https://captaincode-5220d-default-rtdb.firebaseio.com/sites.json"
       )
         .then((response) => {
           console.log("response", response);
@@ -153,7 +153,7 @@ export default {
         )
       ) {
         fetch(
-          `https://captaincode-e61ec-default-rtdb.firebaseio.com/sites/${id}.json`,
+          `https://captaincode-5220d-default-rtdb.firebaseio.com/sites/${id}.json`,
           {
             method: "DELETE",
           }
